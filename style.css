@@ -13,11 +13,15 @@ body{
 @media only screen and (max-width: 480px){
     .maincontainer{
         height: 100%;
+        width: 100%;
         display: flex;
         justify-content: center;
         flex-direction: column;
+        align-items: center !important;
     }
     .title{
-        font-weight: 700;
+        font-weight: bold;
+        color: rgb(80, 32, 80);
+        font-size: 3rem;
     }
 }
