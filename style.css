@@ -1,8 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
 html{
     height: 100%;
+    width: 100%;
+    font-family: 'Spartan', sans-serif;
 }
 body{
     margin: 0;
     padding: 0;
     height: 100%;
+    width: 100%;
+}
+@media only screen and (max-width: 480px){
+    .maincontainer{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
