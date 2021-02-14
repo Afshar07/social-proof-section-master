@@ -15,13 +15,45 @@ body{
         height: 100%;
         width: 100%;
         display: flex;
-        justify-content: center;
+        /* justify-content: center; */
         flex-direction: column;
         align-items: center !important;
     }
     .title{
-        font-weight: bold;
+        text-align: center;
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
         color: rgb(80, 32, 80);
-        font-size: 3rem;
+        font-size: 1.6rem;
+        margin-top: 4rem;
+    }
+    .description{
+        width: 90%;
+        text-align: center;
+        color: hsl(303, 10%, 53%);
+        font-size: 1.2rem;
+    }
+    .ratings{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: .8rem;
+        padding-bottom: .2rem;
+        background-color: hsl(300, 24%, 96%);
+        border-radius: 10px;
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+    .rated{
+        color: rgb(80, 32, 80);
+        font-weight: bold;
+    }
+    .fa-star{
+        color: gold;
+        text-align: center;
     }
 }
