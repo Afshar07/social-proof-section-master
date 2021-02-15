@@ -35,7 +35,7 @@ body {
   .description {
     width: 90%;
     text-align: center;
-    color: hsl(303, 10%, 53%);
+    color: rgb(147, 123, 146);
     font-size: 1.2rem;
   }
   .ratings {
@@ -91,4 +91,33 @@ body {
     color: white;
     margin: 0 2rem 2rem 2rem;
   }
+}
+@media only screen and (min-width: 768px) {
+    .maincontainer{
+        width: 100%;
+        /* display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row; */
+    }
+    .deskcontainer{
+        width: 80%;
+        margin: 5rem;
+    }
+    .title{
+        color: rgb(80, 32, 80);
+        font-weight: bold;
+        font-size: 3rem;
+        width: 40%;
+    }
+    .description{
+        width: 45%;
+        color: rgb(147, 123, 146);
+
+    }
+    /* Rating Section */
+    .ratings{
+        text-align: right;
+        width: auto;
+    }
 }
