@@ -45,7 +45,7 @@ body {
     flex-direction: column;
     padding: 0.8rem;
     padding-bottom: 0.2rem;
-    background-color: hsl(300, 24%, 96%);
+    background-color: rgb(247, 242, 247);
     border-radius: 10px;
     width: 85%;
     margin-bottom: 1rem;
@@ -95,10 +95,7 @@ body {
 @media only screen and (min-width: 768px) {
     .maincontainer{
         width: 100%;
-        /* display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        flex-direction: row; */
+
     }
     .deskcontainer{
         width: 80%;
@@ -108,7 +105,7 @@ body {
         color: rgb(80, 32, 80);
         font-weight: bold;
         font-size: 3rem;
-        width: 40%;
+        width: 60%;
     }
     .description{
         width: 45%;
@@ -117,7 +114,20 @@ body {
     }
     /* Rating Section */
     .ratings{
-        text-align: right;
-        width: auto;
+        text-align: center;
+        width: 100%;
+        background-color: rgb(247, 242, 247) ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+    
+    .rategroup{
+      width: 100%;
+    }
+    .flexgroup{
+      display: flex;
+      
+    }
+
 }
