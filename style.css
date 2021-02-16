@@ -21,19 +21,19 @@ body {
     background: url(images/bg-pattern-top-mobile.svg) top no-repeat,
       url(images/bg-pattern-bottom-mobile.svg) bottom no-repeat;
   }
-  .deskcontainer{
+  .deskcontainer {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
   }
-  .flexgroup{
+  .flexgroup {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-  .titleg{
+  .titleg {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,8 +115,7 @@ body {
     width: 100%;
   }
   .deskcontainer {
-    width: 80%;
-    margin: 5rem;
+    margin: 6rem;
   }
   .title {
     color: rgb(80, 32, 80);
@@ -135,15 +134,14 @@ body {
     background-color: rgb(247, 242, 247);
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
+    justify-content: space-around;
+    padding: 0.5rem;
     margin-bottom: 1rem;
     border-radius: 10px;
   }
-  .rated{
+  .rated {
     font-weight: bold;
     color: rgb(80, 32, 80);
-    
   }
 
   .rategroup {
@@ -153,6 +151,66 @@ body {
     display: flex;
   }
   .fa-star {
-    color: gold;
+    color: rgb(235, 199, 0);
+  }
+  .r1 {
+    transform: translateX(-3rem);
+  }
+  .r3 {
+    transform: translateX(3rem);
+  }
+  .comments {
+    background-color: rgb(80, 32, 80);
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 0 2rem 1rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .details {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0 0 0;
+    margin: 1rem;
+  }
+  .profpic{
+    width: 50%;
+    height: 70%;
+    border-radius: 50%;
+  }
+  .flexcontainer{
+    width: 100% !important;
+    display: flex;
+    /* flex-basis: 33%; */
+    justify-content: center !important;  
+  }
+  .details{
+    display: flex;
+    justify-content: center;
+  }
+  .name{
+    color: white;
+    width: 100%;
+  }
+  .status{
+    color: rgb(238, 104, 164);
+  }
+  .usercomment{
+    color: white;
+    padding: .2rem;
+    font-size: .8rem;
+    padding-bottom: 1rem;
+  }
+
+  .cgroup{
+    width: 100%;
+    padding-left: 1rem;
+  }
+  .c2{
+    transform: translateY(2rem);
+  }
+  .c3{
+    transform: translateY(4rem);
+
   }
 }
