@@ -1,16 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
-html {
-  height: 100%;
-  width: 100%;
-  font-family: "Spartan", sans-serif;
-}
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-}
+
 @media only screen and (max-width: 480px) {
+  html{
+    height: 100%;
+    width: 100%;
+    font-family: "Spartan", sans-serif;
+    background: url(images/bg-pattern-top-mobile.svg) top no-repeat;
+
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
   .maincontainer {
     height: 100%;
     width: 100%;
@@ -18,8 +21,7 @@ body {
     /* justify-content: center; */
     flex-direction: column;
     align-items: center !important;
-    background: url(images/bg-pattern-top-mobile.svg) top no-repeat,
-      url(images/bg-pattern-bottom-mobile.svg) bottom no-repeat;
+
   }
   .deskcontainer {
     display: flex;
@@ -76,6 +78,13 @@ body {
     color: gold;
     text-align: center;
   }
+  .flexcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(images/bg-pattern-bottom-mobile.svg);
+    background-position-y: bottom;
+  }
   .comments {
     background-color: rgb(80, 32, 80);
     width: 90%;
@@ -112,10 +121,19 @@ body {
 }
 @media only screen and (min-width: 768px) {
   html{
+    height: 100%;
+    width: 100%;
+    font-family: "Spartan", sans-serif;
     background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
     background-repeat: no-repeat, no-repeat;
     background-position-y: 0, 7rem;
     background-position-x: 0, 20rem;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
   }
 
   .maincontainer {
